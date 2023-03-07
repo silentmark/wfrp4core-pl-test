@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": "args.prefillModifiers.modifier -= 20",
+      "SecondaryScript": null,
+      "OriginalName": "Crippling Wounds",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "3Z6QjYmhs1Opp1Wp",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": null,
+      "SecondaryScript": "if (args.type == 'weapon' && args.item.attackType=='melee') args.prefillModifiers.modifier += 20",
+      "OriginalName": "Prone",
+      "Name": null,
+      "Description": "Tests related to movement of any kind",
+      "GmDescription": null,
+      "FoundryId": "oyxMXt8PHKUatGsE",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Crippling Wound",
+  "Name": null,
+  "Description": "<p>Gain a @Condition[Prone] Condition that can only be removed with a successful <strong>Challenging (+0) Heal</strong> Test. All Tests suffer a –20 penalty until you receive this medical treatment and spend at least a week resting.</p>",
+  "GmDescription": null,
+  "FoundryId": "xtJXTEjOQtn3pods",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.xtJXTEjOQtn3pods",
+  "Translated": false,
+  "InitializationFolder": null
+}

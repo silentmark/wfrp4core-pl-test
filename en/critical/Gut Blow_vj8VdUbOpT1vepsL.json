@@ -1,0 +1,26 @@
+{
+  "Effects": [
+    {
+      "Script": "args.prefillModifiers.modifier -= 10 * this.effect.conditionValue",
+      "SecondaryScript": null,
+      "OriginalName": "Stunned",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "PKfdEwRZh5DCZSwC",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Gut Blow",
+  "Name": null,
+  "Description": "<p>Gain 1 @Condition[Stunned] Condition</p>",
+  "GmDescription": null,
+  "FoundryId": "vj8VdUbOpT1vepsL",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.vj8VdUbOpT1vepsL",
+  "Translated": false,
+  "InitializationFolder": null
+}

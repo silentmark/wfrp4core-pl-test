@@ -1,0 +1,26 @@
+{
+  "Effects": [
+    {
+      "Script": "if (args.type == \"characteristic\" && (args.item == \"wp\"))\n{\n    args.prefillModifiers.modifier += 10\n}\nelse if (args.type == \"skill\" && (args.item.characteristic.key == \"wp\"))\n{\n     args.prefillModifiers.modifier += 10\n}\n\nif (args.type == \"characteristic\" && (args.item == \"ag\" || args.item == \"i\" || args.item == \"int\"))\n{\n    args.prefillModifiers.modifier -= 10\n}\nelse if (args.type == \"skill\" && (args.item.characteristic.key == \"ag\" || args.item.characteristic.key == \"i\" || args.item.characteristic.value  == \"int\"))\n{\n     args.prefillModifiers.modifier -= 10\n}",
+      "SecondaryScript": null,
+      "OriginalName": "Ameliorative Elixir",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "39pBDLe966yHGvLh",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Ameliorative Elixir",
+  "Name": null,
+  "Description": null,
+  "GmDescription": "<p>Containing Weirdroot, this earthy, thick potion brings a sense of euphoria and pleasant hallucinations. the potion gives a +10 bonus to Willpower tests, but a penalty of –10 to Agility, Initiative, and Intelligence tests.</p><p><strong>Duration: </strong>[[/r 1d10 * 10]] minutes.</p>",
+  "FoundryId": "vUGt1d6vzu3kuMYu",
+  "Type": "trapping",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.vUGt1d6vzu3kuMYu",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

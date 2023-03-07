@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": null,
+      "SecondaryScript": null,
+      "OriginalName": "Bleeding",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "3MNCFqmWfDVYnYbu",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "if (args.opposedTest.result.hitloc.value == \"LOCATION_HERE\") // replace with head, body, lArm, rArm, lLeg, rLeg\n    args.actor.addCondition(\"bleeding\", 2)",
+      "SecondaryScript": null,
+      "OriginalName": "Flensed Muscle",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "HT33m8ut91PlUwlg",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Flensed Muscle",
+  "Name": null,
+  "Description": "<p>4 @Condition[Bleeding] Conditions. Any Wounds you receive to the affected Hit Location will also inflict 2 Bleeding Conditions as the tears reopen for the next 4 weeks.</p><blockquote class=\"foundry-note\"><p>The Active Effect script for this item needs your input. Once applied to an Actor, replace <span style=\"font-family: Courier\">LOCATION_HERE</span> with <span style=\"font-family: Courier New\">head</span>, <span style=\"font-family: Courier New\">body</span>, <span style=\"font-family: Courier\">lArm</span>, <span style=\"font-family: Courier\">rArm</span>, <span style=\"font-family: Courier\">lLeg</span>, or <span style=\"font-family: Courier\">rLeg,</span> matching which location was hit</p></blockquote>",
+  "GmDescription": null,
+  "FoundryId": "CsnWW8GohpZyEAYG",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.CsnWW8GohpZyEAYG",
+  "Translated": false,
+  "InitializationFolder": null
+}

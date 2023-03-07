@@ -1,0 +1,26 @@
+{
+  "Effects": [
+    {
+      "Script": null,
+      "SecondaryScript": null,
+      "OriginalName": "Bleeding",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "p5XumBXXpYWcXo7X",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Gash",
+  "Name": null,
+  "Description": "<p>Gain 1 @Condition[Bleeding] Condition</p>",
+  "GmDescription": null,
+  "FoundryId": "6cojY1IRxvJev8kt",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.6cojY1IRxvJev8kt",
+  "Translated": false,
+  "InitializationFolder": null
+}

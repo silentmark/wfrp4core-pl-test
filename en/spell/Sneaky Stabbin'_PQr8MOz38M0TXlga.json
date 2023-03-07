@@ -1,0 +1,31 @@
+{
+  "Range": "Willpower yards",
+  "Duration": "Special",
+  "Target": "Fellowship Bonus Goblins",
+  "Lore": "Lil' Waaagh!",
+  "Wind": "Lil' Waaagh!",
+  "Effects": [
+    {
+      "Script": "if (this.actor.status.advantage.value > 0 && args.item.type == \"weapon\")\n{\n    args.item.qualities.value.push({name : \"penetrating\"})\n}",
+      "SecondaryScript": null,
+      "OriginalName": "Sneaky Stabbin'",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "sOpM9v9eKAumNjqd",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Sneaky Stabbin'",
+  "Name": null,
+  "Description": "<p>You bewitch the blades of your allies, so that they seek out the weakest points in their enemies’ armour. Your targets gain +1 Advantage, and their attacks gain the Penetrating Weapon Quality which lasts for as long as they have Advantage.</p>",
+  "GmDescription": null,
+  "FoundryId": "PQr8MOz38M0TXlga",
+  "Type": "spell",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.PQr8MOz38M0TXlga",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

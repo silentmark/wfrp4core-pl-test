@@ -1,0 +1,31 @@
+{
+  "Range": "Willpower yards",
+  "Duration": "Willpower Bonus Rounds",
+  "Target": "1",
+  "Lore": "Lil' Waaagh!",
+  "Wind": "Lil' Waaagh!",
+  "Effects": [
+    {
+      "Script": "args.prefillModifiers.modifier -= 10",
+      "SecondaryScript": null,
+      "OriginalName": "Itchy Nuisance",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "yREez0l5RG1YGcNM",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Itchy Nuisance",
+  "Name": null,
+  "Description": "<p>You wave your fingers and small itchy fungal spores shoot out of their ends, embedding themselves in the sensitive areas of the target. These spores grow rapidly, causing unbearable itching. The target suffers a −10% to all Tests, and halves their Movement for the Duration.</p>",
+  "GmDescription": null,
+  "FoundryId": "j43uKlFEckLe70LP",
+  "Type": "spell",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.j43uKlFEckLe70LP",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

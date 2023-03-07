@@ -1,0 +1,52 @@
+{
+  "Effects": [
+    {
+      "Script": "args.actor.details.move.value /= 2",
+      "SecondaryScript": null,
+      "OriginalName": "Movement Halved",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "DEuvKSLzAxPIXpka",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "args.prefillModifiers.modifier -= 10 * this.effect.conditionValue",
+      "SecondaryScript": null,
+      "OriginalName": "Stunned",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "PKfdEwRZh5DCZSwC",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "if (this.actor.isOwner)\n   args.actor.setupSkill(\"Endurance\", {absolute: {difficulty: \"average\"}}).then(setupData => {\n       args.actor.basicTest(setupData).then(test => \n        {\n            if (test.result.outcome == \"failure\")\n            args.actor.addCondition(\"prone\")\n        })\n     })",
+      "SecondaryScript": null,
+      "OriginalName": "Winded",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "rgHSoFshdyzm8l2R",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Winded",
+  "Name": null,
+  "Description": "<p>Gain 2 @Condition[Stunned] Conditions. Pass an <strong>Average (+20) Endurance</strong> Test, or gain the @Condition[Prone] Condition. Movement is halved for [[/r 1d10]] Rounds as you get your breath back.</p>",
+  "GmDescription": null,
+  "FoundryId": "JxCMVZYWoLpaMiWR",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.JxCMVZYWoLpaMiWR",
+  "Translated": false,
+  "InitializationFolder": null
+}

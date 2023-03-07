@@ -1,0 +1,12 @@
+{
+  "Effects": [],
+  "OriginalName": "Reactionary Restorative",
+  "Name": null,
+  "Description": null,
+  "GmDescription": "<p>A thick, blood-red liquid, this foul-tasting brew enhances the drinker’s reactions to danger. While under its effect, you never gain the surprised condition. When the effect wears off, gain +1 Fatigued condition that lasts at least a day.&nbsp;</p>\n<p><strong>Duration</strong>: [[/r 1d10]] hours.</p>",
+  "FoundryId": "mZHMUtVLsASroIQH",
+  "Type": "trapping",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.mZHMUtVLsASroIQH",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

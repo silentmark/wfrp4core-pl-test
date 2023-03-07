@@ -1,0 +1,26 @@
+{
+  "Effects": [
+    {
+      "Script": "if (args.type == \"characteristic\" && (args.item == \"int\"))\n{\n    args.prefillModifiers.modifier += 20\n}\nelse if (args.type == \"skill\" && args.item.characteristic.key == \"int\")\n{\n     args.prefillModifiers.modifier += 20\n}\nelse if (args.type == \"skill\" && args.item.name == \"Endurance\")\n{\n     args.prefillModifiers.modifier += 20\n}",
+      "SecondaryScript": null,
+      "OriginalName": "Focusing Philtre",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "NIRhXPLO5leTz7hM",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Focusing Philtre",
+  "Name": null,
+  "Description": null,
+  "GmDescription": "<p>A dark, bitter draught, this philtre focuses the mind and aids concentration. it gives a +20 bonus to Intelligence and Endurance tests. When its effects wear off, gain 1 @Condition[Fatigued] condition that lasts for at least a day. </p><p><span style=\"font-family: Calibri\"><strong>Duration: </strong></span>[[/r 1d10]] hours. </p>",
+  "FoundryId": "lTsRQp3AmDBcXg9L",
+  "Type": "trapping",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.lTsRQp3AmDBcXg9L",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

@@ -1,0 +1,263 @@
+{
+  "Items": [
+    {
+      "Specification": null,
+      "Effects": [],
+      "OriginalName": "Bestial",
+      "Name": "Zwierzęcy",
+      "Description": "<p>Stworzenie jest nierozumne albo nie potrafi posługiwać się mową. Unika ognia i dostaje Stan Panika, jeśli zostanie nim trafione. W obronie używa wyłącznie Umiejętności Unik. Jeśli straci ponad połowę Żywotności, spróbuje uciec, o ile nie chroni swoich młodych, nie jest osaczone lub nie ma Cechy Stworzenia Terytorialny. W takim przypadku wpada w Szał Bojowy. Zwierzęce stworzenia nie mają Cechy Ogłada.</p>",
+      "GmDescription": null,
+      "FoundryId": "7vGJpl9GcK57SYDU",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.AGcJl5rHjkyIQBPP",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [
+        {
+          "Script": "await args.actor.addCondition(\"entangled\");",
+          "SecondaryScript": null,
+          "OriginalName": "Constrictor",
+          "Name": "Dusiciel",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "txcmOLjyNoW2BLSu",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Constrictor",
+      "Name": "Dusiciel",
+      "Description": "<p>Stworzenie potrafi ściskać i miażdżyć ofiary. Każdy udany rzut na trafienie daje celowi Stan Pochwycenie. Jeżeli do tego dojdzie, stworzenie może wejść w Chwyt.</p>",
+      "GmDescription": null,
+      "FoundryId": "rsOqNo40hqs3leYc",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.KynNUYYKzTMeHrKl",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [],
+      "OriginalName": "Swamp-strider",
+      "Name": "Bagnołaz",
+      "Description": "<p>Stworzenie na bagnie jest w swoim żywiole. Nie dostaje kar do ruchu za przemieszczanie się po bagnistym podłożu.</p>",
+      "GmDescription": null,
+      "FoundryId": "QPZpSsDzMOgHAaTa",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.BxAvP2g1KbHPbbbA",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "1",
+      "Effects": [],
+      "OriginalName": "8x Tentacles",
+      "Name": null,
+      "Description": "<p>The creature has a number of tentacles equal to #.</p>\n            <ul>\n            <li>It gains one Free Attack Action per tentacle.</li>\n            <li>Each tentacle’s attack does Rating Damage, which includes its Strength Bonus already.</li>\n            <li>If it causes Damage, it can also give its opponent an Entangled Condition, which will initiate a Grapple between the target and that tentacle.\n            <ul>\n            <li>If a tentacle is Grappling, use the tentacle’s Free Attack Action to resolve that Grapple, not the creature’s Action </li>\n            </ul>\n            </li>\n            </ul>",
+      "GmDescription": null,
+      "FoundryId": "q4Qjspwy8ZnLdS6A",
+      "Type": "trait",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "Monstrous",
+      "Effects": [],
+      "OriginalName": "Size",
+      "Name": "Rozmiar",
+      "Description": "<p>Ta cecha reprezentuje stworzenia, których rozmiar różni się od standardowego w grze (czyli mniej więcej wielkości człowieka). Jest siedem poziomów Rozmiaru - od drobnego po monstrualny.</p><table style=\"direction: ltr; border-color: #a3a3a3; border-width: 1pt;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Rozmiar</span></td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Przykłady</span></td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Drobny</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">gołąb, motyl, mysz</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Niewielki</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">jastrząb, kot, ludzkie niemowlę</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Mały</td><td style=\"vertical-align: top; width: 2.1513in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">ludzkie dziecko, olbrzymi szczur, niziołek</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Średni</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">człowiek, elf, krasnolud</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Duży</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">koń, ogr, troll</td></tr><tr><td style=\"vertical-align: top; width: .8875in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Wielki</td><td style=\"vertical-align: top; width: 2.0625in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">gryf, mantikora, wywerna</td></tr><tr><td style=\"vertical-align: top; width: .8875in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Monstrualny</td><td style=\"vertical-align: top; width: 2.1319in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">olbrzym, smok, większy demon</td></tr></tbody></table><h3>KORZYSTANIE Z ROZMIARU</h3><p>Jeśli chcesz wykorzystać Rozmiar, by powiększyć stwora - na przykład przekształcając olbrzymiego pająka w gigantycznego pająka - zwiększ Siłę i Wytrzymałość o 10 oraz zmniejsz Zwinność o -5 za każdy poziom Rozmiaru, o który powiększasz stworzenie. Wykonaj tę procedurę odwrotnie, jeśli chcesz zmniejszyć stwora.</p><h3>Modyfikatory Rozmiaru w walce</h3><p>Jeśli stwór jest większy:</p><ul type=\"disc\"><li>Broń stwora dostaje Zaletę Przebijająca, jeśli stwór jest o jeden poziom większy oraz Zaletę Druzgocząca, jeśli jest większy o dwa lub więcej poziomów.</li><li>Stwór mnoży wszelkie zadawane Obrażenia tyle razy, ile poziomów jest większy (zatem 2 poziomy =x2, 3 poziomy =x3 i tak dalej); to mnożenie wykonywane jest po zastosowaniu wszystkich modyfikatorów.</li><li>Wszystkie udane ataki przeciwko mniejszym celom aktywują zasadę Śmiertelny cios - nie tylko ciosy, które zadały śmierć.</li><li>(houserule) Za każdy poziom powyżej Średniego, stworzenie liczy się jako +1 postać do zasad przewagi liczebnej.</li></ul><p>Jeśli stwór jest mniejszy:</p><ul type=\"disc\"><li>Stwór dostaje premię +10 do trafienia.</li></ul><h3>Obrona przed dużymi stworzeniami</h3><p>Dostajesz karę -2 do PS za każdy poziom, o który przerasta cię przeciwnik, gdy używasz Umiejętności Broń Biała do obrony podczas Testu Przeciwstawnego. Zalecamy wykonywanie uników przed olbrzymem wymachującym drzewem zamiast parowania jego ciosów!</p><h3>Strzelanie</h3><p>Strzelanie do małych celi daje modyfikator -10 za każdy poziom rozmiaru poniżej Średniego. Strzelanie do dużych stworzeń daje modyfikator +20 za każdy poziom powyżej Średniego.</p><h3>Przeciwstawna Siła</h3><p>Jeśli jedno stworzenie jest o 2 lub więcej poziomów większe, wygrywa automatycznie Testy Przeciwstawne Siły (i podobne). Jeśli jedno stworzenie jest o 1 poziom większe, mniejszy stwór, aby wygrać Test Przeciwstawny, musi uzyskać Fuksa. Gdy tak się stanie, PS porównywane są jak normalnie. Wszystkie pozostałe wyniki oznaczają zwycięstwo większego stworzenia.</p><h3>Ruch w walce</h3><p>Stworzenie, które jest większe, ignoruje konieczność wykonania Odwrotu, jeśli zamierza opuścić walkę w zwarciu; zamiast tego spycha z drogi mniejszych walczących, przemieszczając się tam, gdzie chce.</p><h3>Strach i Groza</h3><p>Jeśli stworzenie jest postrzegane jako agresywne, wywołuje Strach w dowolnej istocie mniejszej od niego oraz Grozę w dowolnej istocie mniejszej o dwa lub więcej poziomów. Siła Strachu lub Grozy równa się różnicy poziomów Rozmiarów. Zatem jeśli stwór jest duży, a jego przeciwnik mały, może wywoływać Grozę 2.</p><h3>Tupnięcie</h3><p>Stworzenia, które są większe od przeciwników, mogą wykonać jeden Darmowy Atak w postaci Tupnięcia, wydając 1 Przewagę. Uderzają stopą lub kopniakiem zmiatają mniejszych przeciwników z drogi. Ten atak zadaje Obrażenia równe Bonusowi z Siły stworzenia +0 i wykorzystuje Umiejętność Broń Biała (Bijatyka).</p><h3>Żywotność</h3><p>Większe stworzenia mają więcej Żywotności.</p><table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Rozmiar</span></td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Żywotność</span></td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Drobny</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">1</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Niewielki</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Bonus z Wytrzymałości</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Mały</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(2x Bonus z Wytrzymałości) + Bonus z Siły Woli</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Średni</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Duży</td><td style=\"vertical-align: top; width: 4.0in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x2</td></tr><tr><td style=\"vertical-align: top; width: .8666in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Wielki</td><td style=\"vertical-align: top; width: 3.9812in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x4</td></tr><tr><td style=\"vertical-align: top; width: .8666in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Monstrualny</td><td style=\"vertical-align: top; width: 3.9812in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x8</td></tr></tbody></table>",
+      "GmDescription": null,
+      "FoundryId": "BZuQj7VdmMBMmmqi",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.8slW8CJ2oVTxeQ6q",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [],
+      "OriginalName": "Territorial",
+      "Name": "Terytorialny",
+      "Description": "<p>To stworzenie strzeże określonego obszaru lub miejsca. Będzie walczyło do śmierci w jego obronie i normalnie nie będzie ścigało wrogów, jeśli uciekną z tego obszaru.</p>",
+      "GmDescription": null,
+      "FoundryId": "MtpIPGtEMYjW5uPs",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.JIAe7i7dqTQBu4do",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Effects": [
+        {
+          "Script": "let msg = \"\"\n\nlet i_gain = (await new Roll(\"1d10\").roll()).total\n\nif (args.actor.characteristics.i.value <= 0)\n{\n   i_gain += (await new Roll(\"2d10\").roll()).total\n}\n\nmsg = `<b>${this.actor.prototypeToken.name}</b> gains ${i_gain} Initiative`\n\nlet newValue = i_gain + args.actor.characteristics.i.modifier\n\nargs.actor.update({\"system.characteristics.i.modifier\" : newValue})\n\n\nlet hitloc = game.wfrp4e.tables.rollTable(\"hitloc\")\n\nlet value = hitloc.result\nlet desc = hitloc.description\n\nlet effect = args.actor.effects.find(i => i.label == \"Blinded Effect\" && i.origin == this.effect.origin)\n\neffect.setFlag(\"wfrp4e\", \"hitloc\", value)\n\nmsg += ` as eyes push out of their ${desc}`\n\nChatMessage.create({content : msg, speaker : {alias : this.effect.label}})",
+          "SecondaryScript": null,
+          "OriginalName": "Clutch of Eyes",
+          "Name": null,
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "qcgzN9lKYCUuG2T6",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        },
+        {
+          "Script": "if (args.opposedTest.result.hitloc.value == this.effect.flags.wfrp4e.hitloc) // e.g. 'head', rLeg, 'lArm'\n{\n     ChatMessage.create({content: `<b>${this.actor.prototypeToken.name}</b> gains a @Condition[Blinded] condition as their <b>${this.item.name}</b> was hit`})\n     args.actor.addCondition(\"blinded\")\n}",
+          "SecondaryScript": null,
+          "OriginalName": "Blinded Effect",
+          "Name": null,
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "syee4fzI10vI25IA",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Clutch of Eyes",
+      "Name": null,
+      "Description": "<p>Twitching cysts bubble beneath ﬂesh, then pain tears through you as bloody pustules blossom, open, then reveal a clutch of new, horrified eyes.</p><p>Roll a @Table[hitloc]{Hit Location} to determine a hit location where your new eyes push out. You can now see from that hit location. Increase your Initiative characteristic by +[[/r 1d10]]. If you have no Initiative characteristic, also gain +[[/r 2d10]]. All hits to the location with your Clutch of Eyes also inﬂict a @Condition[Blinded] condition.</p>",
+      "GmDescription": null,
+      "FoundryId": "nf7XBlqjzxa9ZNln",
+      "Type": "mutation",
+      "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.iBS0fYHCX9VHdyVR",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Effects": [],
+      "OriginalName": "Telepathy",
+      "Name": null,
+      "Description": "<p>Your mind leaps free from its material shackles, gibbering in delight as it finds new ways to impose upon others.</p><p>With a <strong>Simple Willpower</strong> test you can communicate with any sentient creature within your Willpower in yards and line-of-sight. this last for Initiative minutes. You can also read the surface thoughts of any creature with which you are telepathically communicating with a further <strong>Opposed Willpower</strong> test. If you fail the test, you cannot read the subject’s mind for the next [[/r 1d10]] days. When using telepathy, your eyes glow eerily. Each time this Mutation is developed, your range for using the power doubles.</p><p> </p><p> </p>",
+      "GmDescription": null,
+      "FoundryId": "2UuS90uwP0g22RVC",
+      "Type": "mutation",
+      "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.6clrmh4DXUJgzJqc",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Effects": [
+        {
+          "Script": "if (args.opposedTest.result.hitloc.value == \"head\")\n{\n     ChatMessage.create({content : `<b>${this.actor.prototypeToken.name}</b> receives a @Table[crithead]{Critical Wound} if one was not caused already.`, speaker : {alias: this.item.name}})\n}",
+          "SecondaryScript": null,
+          "OriginalName": "Head Criticals",
+          "Name": null,
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "MTh9LUsIN7vxOu4h",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        },
+        {
+          "Script": "let i_gain = (await new Roll(\"2d10\").roll()).total\nlet fel_gain = 0\nif (args.actor.characteristics.fel.value <= 0)\n{\n   fel_gain += (await new Roll(\"2d10\").roll()).total\n}\n\nlet msg = `<b>${this.actor.prototypeToken.name}</b> gains ${i_gain} Intelligence`\n\nif (fel_gain)\n   msg += ` and ${fel_gain} Fellowship`\n\n\nlet newInt = i_gain + args.actor.characteristics.int.modifier\nlet newFel = fel_gain + args.actor.characteristics.fel.modifier\n\nargs.actor.update({\"system.characteristics.int.modifier\" : newInt, \"system.characteristics.fel.modifier\" : newFel})\n\nChatMessage.create({content : msg, speaker : {alias : this.effect.name}})",
+          "SecondaryScript": null,
+          "OriginalName": "Massive Intellect",
+          "Name": null,
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "RZr67I9pU34yJqPy",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Massive Intellect",
+      "Name": null,
+      "Description": "<p>Bright blood, shattered bone, and tortured ﬂesh pour from your orifices as your old brain is evacuated. Slowly, over weeks, a new intellect grows in its place, causing your head to stretch painfully in wide translucent folds around your swollen, glowing brain.</p>\n<p>&nbsp;</p>\n<p>Increase your Intelligence characteristic by +[[/r 2d10]]. If you have no Fellowship characteristic, also gain +[[/r 2d10]]. All head hits automatically cause a @Table[crithead]{Critical Wound} if one was not caused already.</p>",
+      "GmDescription": null,
+      "FoundryId": "eujHCTtGjP3I3CPB",
+      "Type": "mutation",
+      "OriginFoundryId": "Compendium.wfrp4e-starter-set.starter-set-items.ox7tLcnA1HMxhyBF",
+      "Translated": false,
+      "InitializationFolder": "Ubersreik"
+    },
+    {
+      "Effects": [],
+      "OriginalName": "Stealth (Underground)",
+      "Name": null,
+      "Description": "<p>Ta Umiejętność pozwala ci na podkradanie się i ukrywanie w lepszym stopniu niż innym. Testy Skradania są Testami Przeciwstawnymi, wykonywanymi przeciwko Percepcji przeciwnika i modyfikowanymi przez warunki, takie jak ciemność, łatwość ukrycia się w trakcie przemykania czy choćby twój ubiór. Spora lub Zdumiewająca Porażka podczas Testu Skradania oznacza, że ściągasz na siebie uwagę wrogów, przed którymi chciałeś się ukryć.</p><p>Skradanie się może mieć wiele zastosowań w walce. Pierwszym przychodzącym na myśl jest ukrycie się, by przygotować zasadzkę lub by zakraść się i zaatakować od tyłu. Rozdział 5: Zasady opisuje, co się wtedy dzieje. Skradania można też użyć, by niepostrzeżenie dać nogę, jeśli walka nie idzie po naszej myśli...</p><p>Specjalizacje: Podziemia, Miasto, Wieś.</p><p>Śledzenie to nic innego, jak podążanie za kimś tak, by o tym nie wiedział. Wymaga to Łączonego Testu Percepcji i Skradania. Jeśli cel próbuje zgubić ogon, Test staje się Przeciwstawny, wykonywany przeciwko Skradaniu się śledzonego. Jeśli uda ci się Test Percepcji, ale nie Skradania, podążasz za celem, ale zostajesz zauważony. Jeśli uda się Test Skradania, ale nie Percepcji, to tracisz cel z oczu, ale pozostajesz niezauważony.</p>",
+      "GmDescription": null,
+      "FoundryId": "toUs0MowHFBq0DRX",
+      "Type": "skill",
+      "OriginFoundryId": "Compendium.wfrp4e-core.skills.cHbQeJQ7cVZZyDyl",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [
+        {
+          "Script": "if (args.type == \"skill\" &&  args.item.name.includes(game.i18n.localize(\"NAME.Stealth\"))) {\n   let sl = this.actor.characteristics.ag.bonus;\n   args.prefillModifiers.slBonus += sl;\n}",
+          "SecondaryScript": null,
+          "OriginalName": "Stealthy",
+          "Name": "Skryty",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "0AgiLabg8eB4LItu",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Stealthy",
+      "Name": "Skryty",
+      "Description": "<p>Stworzenie jest wyjątkowo skryte. Dodaje wartość swojego Bonusu ze Zwinności do PS wszystkich Testów Skradania.</p>",
+      "GmDescription": null,
+      "FoundryId": "osb3PfVjdnPRC5Dw",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.OzwDT6kzoLYeeR2d",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [
+        {
+          "Script": "if (args.type == \"skill\" && args.item.name == game.i18n.localize(\"NAME.Swim\")) {\n    args.prefillModifiers.slBonus += this.actor.characteristics.ag.bonus;\n}",
+          "SecondaryScript": null,
+          "OriginalName": "Amphibious",
+          "Name": "Ziemnowodny",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "KZWyDUhYS7K60RF0",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Amphibious",
+      "Name": "Ziemnowodny",
+      "Description": "<p>Stworzenie jest w swoim żywiole w wodzie. Może dodać swój Bonus ze Zwinności do PS wszystkich testów Pływania i poruszać się w wodzie z pełną Szybkością.</p>",
+      "GmDescription": null,
+      "FoundryId": "1ik3JXakmypU0wis",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.sJ3yX1kvzu2hgNq5",
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "Species": "Bog Octopus",
+  "Gender": "Male",
+  "OriginalName": "The Bog King",
+  "Name": null,
+  "Description": "<section id=\"secret-BLM1CbS1ythIuWEs\" class=\"secret\"><p>@UUID[JournalEntry.d8nvgs2H5MmtKhdM.JournalEntryPage.L5gV9pgaWXB3floP#the-cult-of-the-bog-king]{The Cult of the Bog King}</p><p>The Bog King is truly terrifying. Its soft, 5-yard wide brain pulsates with inner light, its 100-yard-long tentacles are tipped with a blistered clutch of roving eyes, its sharp beak is large enough to crush a wagon. it is also a surprisingly nimble creature, able to squeeze itself down pipes just one-foot wide, making it almost impossible to find should it wish to retreat.</p><p>Should the party earn the Bog King’s wrath when above ground, a single tentacle will attack, protruding from a pipe or grate leading to the sewers. Use the rules above, but only attack with a single tentacle. Should the Bog King suﬀer at least 20 Wounds it will withdraw its tentacle with a fearsome splash. Should the party venture beneath the streets of Ubersreik, they may encounter the Bog King in all his many-tentacled glory, using the full rules. </p></section>",
+  "GmDescription": null,
+  "FoundryId": "LB1Qv7lfSY0b02HH",
+  "Type": "creature",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.actors.LB1Qv7lfSY0b02HH",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik NPCs"
+}

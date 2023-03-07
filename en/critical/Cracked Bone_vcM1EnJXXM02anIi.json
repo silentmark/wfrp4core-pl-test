@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": "args.prefillModifiers.modifier -= 10 * this.effect.conditionValue",
+      "SecondaryScript": null,
+      "OriginalName": "Stunned",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "PKfdEwRZh5DCZSwC",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "args.prefillModifiers.modifier -= 10",
+      "SecondaryScript": null,
+      "OriginalName": "Cracked Bone",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "XWCKsliojPlRhtX5",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Cracked Bone",
+  "Name": null,
+  "Description": "<p>Gain a @Condition[Stunned] Condition. All Tests suffer a –10 penalty until you receive a successful Heal Test.</p>",
+  "GmDescription": null,
+  "FoundryId": "vcM1EnJXXM02anIi",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.vcM1EnJXXM02anIi",
+  "Translated": false,
+  "InitializationFolder": null
+}

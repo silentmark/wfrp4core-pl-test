@@ -1,0 +1,72 @@
+{
+  "Symptoms": "Fever, Lingering (Easy), Malaise, Nausea",
+  "Duration": "1d10",
+  "DurationUnit": "days",
+  "Contraction": "If you fail an Average (+20) Endurance Test after being bitten by an infected mosquito. If infected blood is injected or imbibed, you contract Bronze Fever automatically.",
+  "Incubation": "1d10",
+  "IncubationUnit": "days",
+  "Permanent": null,
+  "Effects": [
+    {
+      "Script": "\n                    if (this.actor.isOwner && args.test.result.outcome == \"failure\")\n                    {\n                        let applicableCharacteristics = [\"ws\", \"bs\", \"s\", \"fel\", \"ag\", \"t\", \"dex\"]\n                        if (applicableCharacteristics.includes(args.test.characteristicKey))\n                            this.actor.addCondition(\"stunned\")\n    \n                    }\n                    ",
+      "SecondaryScript": null,
+      "OriginalName": "Nausea",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "2eANA6RgONSrJM1X",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "\n                       \n                    let applicableCharacteristics = [\"ws\", \"bs\", \"s\", \"fel\", \"ag\", \"t\", \"dex\"]\n    \n                    if (args.type == \"weapon\")\n                        args.prefillModifiers.modifier -= 10\n                    else if (args.type == \"characteristic\")\n                    {\n                        if (applicableCharacteristics.includes(args.item))\n                            args.prefillModifiers.modifier -= 10\n                    }\n                    else if (args.type == \"skill\")\n                    {\n                        if (applicableCharacteristics.includes(args.item.characteristic.key))\n                            args.prefillModifiers.modifier -= 10\n                    }",
+      "SecondaryScript": null,
+      "OriginalName": "Fever",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "h8rmcNVZBnUzmWy8",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": null,
+      "SecondaryScript": null,
+      "OriginalName": "Lingering (Easy)",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "ixMZawq0VikVF9Uf",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "\n                    if (game.user.isUniqueGM)\n                    {\n                        let fatigued = args.actor.hasCondition(\"fatigued\")\n                        if (!fatigued)\n                        {\n                            args.actor.addCondition(\"fatigued\")\n                            ui.notifications.notify(\"Fatigued added to \" + args.actor.name + \" which cannot be removed until the Malaise symptom is gone.\")\n                        }\n                    }\n                    ",
+      "SecondaryScript": null,
+      "OriginalName": "Malaise",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "ZqsxTexTUEax1j1T",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Bronze Fever",
+  "Name": null,
+  "Description": "<p>Bronze Fever is more commonly found in the southern Old World, in more warm and humid climes, where it is spread via insect bites. Most afflicted will recover in a matter of days, but on rare occasions it can lead to complications, and even death.&nbsp;</p>",
+  "GmDescription": null,
+  "FoundryId": "BBYmXJ5jiRUk93IJ",
+  "Type": "disease",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.BBYmXJ5jiRUk93IJ",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

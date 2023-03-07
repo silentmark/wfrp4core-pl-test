@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": "if (args.opposedTest.result.hitloc.value == \"LOCATION_HERE\") // replace with head, body, lArm, rArm, lLeg, rLeg\n    args.actor.addCondition(\"bleeding\", 1)",
+      "SecondaryScript": null,
+      "OriginalName": "Gaping Wound",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "H1jqgnMQlBWlb2iN",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": null,
+      "SecondaryScript": null,
+      "OriginalName": "Bleeding",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "nyrOZnHf5SaR3ql0",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Gaping Wound",
+  "Name": null,
+  "Description": "<p>Gain 3 @Condition[Bleeding] Conditions. Any Wounds you receive to the affected Hit Location will inflict an additional Bleeding Condition for the next week as the cut reopens.</p><blockquote class=\"foundry-note\"><p>The Active Effect script for this item needs your input. Once applied to an Actor, replace <span style=\"font-family: Courier\">LOCATION_HERE</span> with <span style=\"font-family: Courier New\">head</span>, <span style=\"font-family: Courier New\">body</span>, <span style=\"font-family: Courier\">lArm</span>, <span style=\"font-family: Courier\">rArm</span>, <span style=\"font-family: Courier\">lLeg</span>, or <span style=\"font-family: Courier\">rLeg,</span> matching which location was hit</p></blockquote>",
+  "GmDescription": null,
+  "FoundryId": "pmggfvcdKxjfsgLF",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.pmggfvcdKxjfsgLF",
+  "Translated": false,
+  "InitializationFolder": null
+}

@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": "if (args.opposedTest.result.hitloc.value == \"head\")\n{\n     ChatMessage.create({content : `<b>${this.actor.prototypeToken.name}</b> receives a @Table[crithead]{Critical Wound} if one was not caused already.`, speaker : {alias: this.item.name}})\n}",
+      "SecondaryScript": null,
+      "OriginalName": "Head Criticals",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "MTh9LUsIN7vxOu4h",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "let i_gain = (await new Roll(\"2d10\").roll()).total\nlet fel_gain = 0\nif (args.actor.characteristics.fel.value <= 0)\n{\n   fel_gain += (await new Roll(\"2d10\").roll()).total\n}\n\nlet msg = `<b>${this.actor.prototypeToken.name}</b> gains ${i_gain} Intelligence`\n\nif (fel_gain)\n   msg += ` and ${fel_gain} Fellowship`\n\n\nlet newInt = i_gain + args.actor.characteristics.int.modifier\nlet newFel = fel_gain + args.actor.characteristics.fel.modifier\n\nargs.actor.update({\"system.characteristics.int.modifier\" : newInt, \"system.characteristics.fel.modifier\" : newFel})\n\nChatMessage.create({content : msg, speaker : {alias : this.effect.name}})",
+      "SecondaryScript": null,
+      "OriginalName": "Massive Intellect",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "RZr67I9pU34yJqPy",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Massive Intellect",
+  "Name": null,
+  "Description": "<p>Bright blood, shattered bone, and tortured ﬂesh pour from your orifices as your old brain is evacuated. Slowly, over weeks, a new intellect grows in its place, causing your head to stretch painfully in wide translucent folds around your swollen, glowing brain.</p><p>Increase your Intelligence characteristic by +[[/r 2d10]]. If you have no Fellowship characteristic, also gain +[[/r 2d10]]. All head hits automatically cause a @Table[crithead]{Critical Wound} if one was not caused already.</p>",
+  "GmDescription": null,
+  "FoundryId": "ox7tLcnA1HMxhyBF",
+  "Type": "mutation",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.ox7tLcnA1HMxhyBF",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

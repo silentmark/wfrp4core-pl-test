@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": null,
+      "SecondaryScript": null,
+      "OriginalName": "Slippery Skin",
+      "Name": null,
+      "Description": "Slippery Skin: Fellowship Tests & Tests requiring you to hold things",
+      "GmDescription": null,
+      "FoundryId": "hexXxc4eT1sfti0S",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "if (args.type == \"weapon\" && args.item.name != \"Unarmed\")\n    args.prefillModifiers.modifier -= 20",
+      "SecondaryScript": null,
+      "OriginalName": "Weapon Test Penalties",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "m3sGTKw3FpeX78E1",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Slippery Skin",
+  "Name": null,
+  "Description": "<p>You sweat constantly, your skin exuding a thin, slimy mucous much like that produced by hagfish. This is unpleasant to the touch, soaking through your clothes within an hour or two, and rendering your grip uncertain.</p><p>Any tests that require you to hold anything in your hands (such as a weapon) suffer a -20 penalty, and you also suffer a -20 penalty on appropriate Fellowship tests. When trying to escape a grapple, if you succeed you can choose to either use your rolled SL, or the number rolled on your unit’s die. so, a successful roll of 28 could be used for +8 SL.</p>",
+  "GmDescription": null,
+  "FoundryId": "IPrHvStaZ2hw3Q8z",
+  "Type": "mutation",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.IPrHvStaZ2hw3Q8z",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

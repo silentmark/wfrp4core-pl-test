@@ -1,0 +1,26 @@
+{
+  "Effects": [
+    {
+      "Script": null,
+      "SecondaryScript": null,
+      "OriginalName": "Bleeding",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "OcAC7jjpeR86HSSK",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Torn Flesh",
+  "Name": null,
+  "Description": "<p>Gain 2 @Condition[Bleeding] Conditions.</p>",
+  "GmDescription": null,
+  "FoundryId": "7u2XsoTaIdEMsnzG",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.7u2XsoTaIdEMsnzG",
+  "Translated": false,
+  "InitializationFolder": null
+}

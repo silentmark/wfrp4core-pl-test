@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": "args.prefillModifiers.modifier -= 10 * this.effect.conditionValue",
+      "SecondaryScript": null,
+      "OriginalName": "Stunned",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "PKfdEwRZh5DCZSwC",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "args.prefillModifiers.modifier -= 20",
+      "SecondaryScript": null,
+      "OriginalName": "Shattered Bone",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "rER8YHCJqjxaDQEE",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Shattered Bone",
+  "Name": null,
+  "Description": "<p>Gain a @Condition[Stunned] Condition that can only be removed with a successful <strong>Challenging (+0) Heal</strong> Test. All Tests suffer a –20 penalty until you receive this medical attention, and spend at least a week resting.</p>",
+  "GmDescription": null,
+  "FoundryId": "9re1DIxquRgCswc2",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.9re1DIxquRgCswc2",
+  "Translated": false,
+  "InitializationFolder": null
+}

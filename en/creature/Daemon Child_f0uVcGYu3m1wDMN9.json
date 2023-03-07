@@ -1,0 +1,162 @@
+{
+  "Items": [
+    {
+      "Specification": null,
+      "Effects": [
+        {
+          "Script": "let content = `<b>${this.effect.label}</b>: All targets engaged with <b>${this.actor.prototypeToken.name}</b> take [[/r 1d10]] Damage, modified by TB and AP.`;\nChatMessage.create({content, speaker : {alias : this.actor.prototypeToken.name}});",
+          "SecondaryScript": null,
+          "OriginalName": "Corrosive Blood",
+          "Name": "Kwasowa Krew",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "mzNcVAruDOTiCGhS",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Corrosive Blood",
+      "Name": "Kwasowa Krew",
+      "Description": "<p>Krew stworzenia jest żrąca. Za każdym razem, gdy zostanie ono ranione, tryska z niego krew i wszystkie związane z nim walką cele dostają 1k10 Ran. Są one normalnie obniżane przez Bonus z Wytrzymałości i Punkty Pancerza, ale wynoszą minimum 1.</p>",
+      "GmDescription": null,
+      "FoundryId": "vf0pFUyS7sLv1HFt",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.M5QSWOYt2Rbv2yxW",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "4",
+      "Effects": [
+        {
+          "Script": "await args.actor.addCondition(\"stunned\");",
+          "SecondaryScript": null,
+          "OriginalName": "Vomit",
+          "Name": "Wymiot",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "4KinCaegUvscrFU9",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Vomit",
+      "Name": "Wymiot",
+      "Description": "<p>Stworzenie potrafi wyrzucać z siebie strumień żrących wymiocin, pokrywając przeciwników cuchnącym, na wpół strawionym śluzem.</p>\n\n<ul><li>W swojej Turze, wydając 3 Przewagi, stworzenie może wykonać Wymiot jako Darmowy Atak. Stworzenie wybiera 1 cel, który widzi w promieniu tylu metrów, ile wynosi jego Bonus z Wytrzymałości, i wymiotuje. Trafione zostają także wszystkie cele w promieniu dwóch metrów od tego celu.</li><li>Stworzenie przeprowadza Test Przeciwstawny Umiejętności Strzeleckie/Unik przeciwko wszystkim objętym efektem celom (jeden rzut stwora przeciwko wszystkim poszczególnym celom). Test jest zazwyczaj Łatwy (+40) dla wymiotującego stwora ze względu na bliski dystans oraz Wymagający (+0) dla przeciwników. Wszystkie cele, które przegrały, otrzymują trafienie z Obrażeniami równymi tyle, ile wynosi Bonus z Wytrzymałości +4 stwora, oraz dostają Stan Oszołomiony.</li><li>Noszony przez objęte efektem postaci pancerze oraz wszelka broń dostają 1 punkt Uszkodzeń od kwasowych wymiocin.</li></ul>",
+      "GmDescription": null,
+      "FoundryId": "m0Ev3lbdsgB96uuB",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.JzeN9MZ0xUDvpE2l",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "Moderate",
+      "Effects": [],
+      "OriginalName": "Corruption",
+      "Name": "Spaczenie",
+      "Description": "<p>Stworzenie jest napiętnowane przez Chaos lub przepełnione mroczną magią. Siła spaczenia podana jest w nawiasie.</p>",
+      "GmDescription": null,
+      "FoundryId": "WGC5XMl1lS50wE9O",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.xsGbDFqK2qh7lsIj",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "8+",
+      "Effects": [],
+      "OriginalName": "Daemonic",
+      "Name": "Demoniczny",
+      "Description": "<p>Esencję stworzenia stanowi surowa magia, a w tym, co uchodzi za jej żyły, płynie paskudna posoka. Demoniczne stwory nie muszą zaspokajać normalnych potrzeb życiowych. Nie potrzebują jedzenia, wodyani powietrza.</p><p>Wszystkie ataki stworzenia są Magiczne. Kiedy stworzenie zostanie trafione, rzuć 1k10. Jeśli wyrzuci tyle, ile wynosi próg, lub więcej, cios zostaje zignorowany, nawet jeśli jest to Trafienie Krytyczne. Za tojeśli Żywotność stworzenia zostanie zredukowana do 0, jego dusza natychmiast powraca do Królestw Chaosu. Stworzenie zostaje usuniętez rozgrywki.</p>",
+      "GmDescription": null,
+      "FoundryId": "fcZFseHpr12DGjWa",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.v3uzEthcq0JRar0J",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "1",
+      "Effects": [
+        {
+          "Script": "let value = parseInt(this.item.specification.value);\nlet name = this.actor.prototypeToken.name;\nif (game.user.isGM && game.user.targets.size) {\n  game.user.targets.forEach(t => {\n    t.actor.applyFear(value, name)\n  });\n  game.user.updateTokenTargets([]);\n}\nelse {\n  game.wfrp4e.utility.postFear(value, name);\n}",
+          "SecondaryScript": null,
+          "OriginalName": "Fear",
+          "Name": "Strach",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "ODxbsuuS0splmVEN",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Fear",
+      "Name": "Strach",
+      "Description": "<p>Stworzenie wywołuje nienaturalny Strach w innych istotach. Poziom Strachu równy jest podanej wartości.</p>",
+      "GmDescription": null,
+      "FoundryId": "UV9Jcawz6xpvvWvb",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.pTorrE0l3VybAbtn",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [
+        {
+          "Script": "if (args.type == \"weapon\" && args.item.attackType == \"melee\") {\n   args.prefillModifiers.modifier -= 10\n}",
+          "SecondaryScript": null,
+          "OriginalName": "Infestation",
+          "Name": "Zakażony",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "gjbJu5OWDKFJvvyY",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Infestation",
+      "Name": "Zakażony",
+      "Description": "<p>Skóra stworzenia jest pełna gryzących pcheł lub czegoś podobnego. Wszyscy przeciwnicy dostają karę -10 do trafienia w walce w zwarciu, ponieważ pasożyty rozpraszają ich i irytują.</p>",
+      "GmDescription": null,
+      "FoundryId": "TwrOeGQaORF9ZF96",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.TBcdTlYSRH8Rd1x0",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "4",
+      "Effects": [],
+      "OriginalName": "Weapon",
+      "Name": "Broń",
+      "Description": "<p>Stworzenie nosi broń do walki wręcz lub używa w walce zębów, pazurów albo tym podobnych. \n\nBroń zadaje tyle Obrażeń, ile wynosi podana wartość, która już zawiera Bonus z Siły stworzenia. Zazwyczaj będzie to wynosiło 4 + Bonus z Siły (co reprezentuje broń ręczną).</p>",
+      "GmDescription": null,
+      "FoundryId": "frLrOXwll5KJnXAO",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.AtpAudHA4ybXVlWM",
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "Species": "???",
+  "Gender": "???",
+  "OriginalName": "Daemon Child",
+  "Name": null,
+  "Description": "<section id=\"secret-okLTGImbyXH9X2tE\" class=\"secret\"><p>@UUID[JournalEntry.HUQGe1nm81Hfslkv.JournalEntryPage.Rc7LoFNKLnhdQpAF]{Unions & Reunions}</p></section>",
+  "GmDescription": null,
+  "FoundryId": "f0uVcGYu3m1wDMN9",
+  "Type": "creature",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.actors.f0uVcGYu3m1wDMN9",
+  "Translated": false,
+  "InitializationFolder": "Unions & Reunions"
+}

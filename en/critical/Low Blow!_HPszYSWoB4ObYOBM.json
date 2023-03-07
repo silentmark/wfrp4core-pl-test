@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": "if (this.actor.isOwner)\n   args.actor.setupSkill(\"Endurance\", {absolute: {difficulty: \"hard\"}}).then(setupData => {\n       args.actor.basicTest(setupData).then(test => \n        {\n            if (test.result.outcome == \"failure\")\n            args.actor.addCondition(\"stunned\", 2)\n        })\n     })",
+      "SecondaryScript": null,
+      "OriginalName": "Low Blow!",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "dys96YM5JQYiJjtZ",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "args.prefillModifiers.modifier -= 10 * this.effect.conditionValue",
+      "SecondaryScript": null,
+      "OriginalName": "Stunned",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "PKfdEwRZh5DCZSwC",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Low Blow!",
+  "Name": null,
+  "Description": "<p>Gain 1 @Condition[Stunned] Condition. Pass a <strong>Hard (-20) Endurance</strong> Test or gain another 2 Stunned Condition.</p>",
+  "GmDescription": null,
+  "FoundryId": "HPszYSWoB4ObYOBM",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.HPszYSWoB4ObYOBM",
+  "Translated": false,
+  "InitializationFolder": null
+}

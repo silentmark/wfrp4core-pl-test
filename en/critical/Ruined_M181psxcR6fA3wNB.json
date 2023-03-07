@@ -1,0 +1,26 @@
+{
+  "Effects": [
+    {
+      "Script": null,
+      "SecondaryScript": null,
+      "OriginalName": "Unconscious",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "iliuuUkzNTekgldW",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Ruined",
+  "Name": null,
+  "Description": "<p>Gain the @Condition[Unconscious] Condition that can only be removed with a successful <strong>Challenging (+0) Heal</strong> Test. The affected Hit Location is useless until you spend a month on bed rest.</p>",
+  "GmDescription": null,
+  "FoundryId": "M181psxcR6fA3wNB",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.M181psxcR6fA3wNB",
+  "Translated": false,
+  "InitializationFolder": null
+}

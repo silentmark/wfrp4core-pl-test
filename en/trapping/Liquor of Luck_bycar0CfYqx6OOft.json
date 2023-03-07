@@ -1,0 +1,12 @@
+{
+  "Effects": [],
+  "OriginalName": "Liquor of Luck",
+  "Name": null,
+  "Description": null,
+  "GmDescription": "<p>A bright-blue liquid with a faint scent of liqorice. consuming it grants +1 Fortune Point. Additionally, while under its inﬂuence, when you spend a Fortune point, roll&nbsp;[[/r 1d100]]. If you roll a double, you regain a Fortune Point. When the effect wears off, lose all Fortune Points and gain 1&nbsp;@Condition[Fatigued]&nbsp;condition that lasts for at least a day.&nbsp;</p>\n<p>Duration:&nbsp;[[/r 1d10]] minutes.</p>",
+  "FoundryId": "bycar0CfYqx6OOft",
+  "Type": "trapping",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.bycar0CfYqx6OOft",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

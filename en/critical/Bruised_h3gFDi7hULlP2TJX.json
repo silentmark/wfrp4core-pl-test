@@ -1,0 +1,26 @@
+{
+  "Effects": [
+    {
+      "Script": "if (args.type == \"skill\" && args.item.characteristic.key == \"ag\")\n   args.prefillModifiers.modifier -= 10\n\nif (args.type == \"characteristic\" && args.item == \"ag\")\n   args.prefillModifiers.modifier -= 10",
+      "SecondaryScript": null,
+      "OriginalName": "Bruised",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "704e2NzUUysnN2xG",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Bruised",
+  "Name": null,
+  "Description": "<p>All Agility-based Tests suffer a –10 penalty for [[/r 1d10]] days.</p>",
+  "GmDescription": null,
+  "FoundryId": "h3gFDi7hULlP2TJX",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.h3gFDi7hULlP2TJX",
+  "Translated": false,
+  "InitializationFolder": null
+}

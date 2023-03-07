@@ -1,0 +1,39 @@
+{
+  "Effects": [
+    {
+      "Script": "let msg = \"\"\n\nlet i_gain = (await new Roll(\"1d10\").roll()).total\n\nif (args.actor.characteristics.i.value <= 0)\n{\n   i_gain += (await new Roll(\"2d10\").roll()).total\n}\n\nmsg = `<b>${this.actor.prototypeToken.name}</b> gains ${i_gain} Initiative`\n\nlet newValue = i_gain + args.actor.characteristics.i.modifier\n\nargs.actor.update({\"system.characteristics.i.modifier\" : newValue})\n\n\nlet hitloc = game.wfrp4e.tables.rollTable(\"hitloc\")\n\nlet value = hitloc.result\nlet desc = hitloc.description\n\nlet effect = args.actor.effects.find(i => i.label == \"Blinded Effect\" && i.origin == this.effect.origin)\n\neffect.setFlag(\"wfrp4e\", \"hitloc\", value)\n\nmsg += ` as eyes push out of their ${desc}`\n\nChatMessage.create({content : msg, speaker : {alias : this.effect.label}})",
+      "SecondaryScript": null,
+      "OriginalName": "Clutch of Eyes",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "qcgzN9lKYCUuG2T6",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "if (args.opposedTest.result.hitloc.value == this.effect.flags.wfrp4e.hitloc) // e.g. 'head', rLeg, 'lArm'\n{\n     ChatMessage.create({content: `<b>${this.actor.prototypeToken.name}</b> gains a @Condition[Blinded] condition as their <b>${this.item.name}</b> was hit`})\n     args.actor.addCondition(\"blinded\")\n}",
+      "SecondaryScript": null,
+      "OriginalName": "Blinded Effect",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "syee4fzI10vI25IA",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Clutch of Eyes",
+  "Name": null,
+  "Description": "<p>Twitching cysts bubble beneath ﬂesh, then pain tears through you as bloody pustules blossom, open, then reveal a clutch of new, horrified eyes.</p><p>Roll a @Table[hitloc]{Hit Location} to determine a hit location where your new eyes push out. You can now see from that hit location. Increase your Initiative characteristic by +[[/r 1d10]]. If you have no Initiative characteristic, also gain +[[/r 2d10]]. All hits to the location with your Clutch of Eyes also inﬂict a @Condition[Blinded] condition.</p>",
+  "GmDescription": null,
+  "FoundryId": "iBS0fYHCX9VHdyVR",
+  "Type": "mutation",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.iBS0fYHCX9VHdyVR",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

@@ -1,0 +1,13 @@
+{
+  "Specification": null,
+  "Effects": [],
+  "OriginalName": "Doppelganger",
+  "Name": null,
+  "Description": "<p>The NPC can assume the form of any Human-like creature of Average Size. It must achieve +5 SLs on an <strong>Extended Perception</strong> Test as it observes its target. It then takes 2 Rounds to assume the target’s form. The target’s clothes and smaller trappings are also replicated; they become part of the creature and cannot be removed. Larger trappings, such as swords and backpacks, are not copied. When those who know the victim meet the transformed creature, they make a <strong>Hard (−20%) Simple Intuition</strong> Test. If they pass, they know something is up. If they fail, they are convinced the creature is their acquaintance.</p>",
+  "GmDescription": null,
+  "FoundryId": "TQDlbIGPOPNDF9uB",
+  "Type": "trait",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.TQDlbIGPOPNDF9uB",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

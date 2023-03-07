@@ -1,0 +1,12 @@
+{
+  "Effects": [],
+  "OriginalName": "Torn Apart",
+  "Name": null,
+  "Description": "<p>You are hacked in two. Your top half lands [[/r 1d10]] feet in a random direction and all nearby Characters are showered in blood.</p>",
+  "GmDescription": null,
+  "FoundryId": "ULUNwr1srKJhCYKi",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.ULUNwr1srKJhCYKi",
+  "Translated": false,
+  "InitializationFolder": null
+}

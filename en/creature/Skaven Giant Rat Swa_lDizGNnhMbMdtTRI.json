@@ -1,0 +1,107 @@
+{
+  "Items": [
+    {
+      "Specification": null,
+      "Effects": [],
+      "OriginalName": "Bestial",
+      "Name": "Zwierzęcy",
+      "Description": "<p>Stworzenie jest nierozumne albo nie potrafi posługiwać się mową. Unika ognia i dostaje Stan Panika, jeśli zostanie nim trafione. W obronie używa wyłącznie Umiejętności Unik. Jeśli straci ponad połowę Żywotności, spróbuje uciec, o ile nie chroni swoich młodych, nie jest osaczone lub nie ma Cechy Stworzenia Terytorialny. W takim przypadku wpada w Szał Bojowy. Zwierzęce stworzenia nie mają Cechy Ogłada.</p>",
+      "GmDescription": null,
+      "FoundryId": "dmPAwCh7JAz0ujtg",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.AGcJl5rHjkyIQBPP",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "Small",
+      "Effects": [],
+      "OriginalName": "Size",
+      "Name": "Rozmiar",
+      "Description": "<p>Ta cecha reprezentuje stworzenia, których rozmiar różni się od standardowego w grze (czyli mniej więcej wielkości człowieka). Jest siedem poziomów Rozmiaru - od drobnego po monstrualny.</p><table style=\"direction: ltr; border-color: #a3a3a3; border-width: 1pt;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Rozmiar</span></td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Przykłady</span></td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Drobny</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">gołąb, motyl, mysz</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Niewielki</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">jastrząb, kot, ludzkie niemowlę</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Mały</td><td style=\"vertical-align: top; width: 2.1513in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">ludzkie dziecko, olbrzymi szczur, niziołek</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Średni</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">człowiek, elf, krasnolud</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Duży</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">koń, ogr, troll</td></tr><tr><td style=\"vertical-align: top; width: .8875in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Wielki</td><td style=\"vertical-align: top; width: 2.0625in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">gryf, mantikora, wywerna</td></tr><tr><td style=\"vertical-align: top; width: .8875in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Monstrualny</td><td style=\"vertical-align: top; width: 2.1319in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">olbrzym, smok, większy demon</td></tr></tbody></table><h3>KORZYSTANIE Z ROZMIARU</h3><p>Jeśli chcesz wykorzystać Rozmiar, by powiększyć stwora - na przykład przekształcając olbrzymiego pająka w gigantycznego pająka - zwiększ Siłę i Wytrzymałość o 10 oraz zmniejsz Zwinność o -5 za każdy poziom Rozmiaru, o który powiększasz stworzenie. Wykonaj tę procedurę odwrotnie, jeśli chcesz zmniejszyć stwora.</p><h3>Modyfikatory Rozmiaru w walce</h3><p>Jeśli stwór jest większy:</p><ul type=\"disc\"><li>Broń stwora dostaje Zaletę Przebijająca, jeśli stwór jest o jeden poziom większy oraz Zaletę Druzgocząca, jeśli jest większy o dwa lub więcej poziomów.</li><li>Stwór mnoży wszelkie zadawane Obrażenia tyle razy, ile poziomów jest większy (zatem 2 poziomy =x2, 3 poziomy =x3 i tak dalej); to mnożenie wykonywane jest po zastosowaniu wszystkich modyfikatorów.</li><li>Wszystkie udane ataki przeciwko mniejszym celom aktywują zasadę Śmiertelny cios - nie tylko ciosy, które zadały śmierć.</li><li>(houserule) Za każdy poziom powyżej Średniego, stworzenie liczy się jako +1 postać do zasad przewagi liczebnej.</li></ul><p>Jeśli stwór jest mniejszy:</p><ul type=\"disc\"><li>Stwór dostaje premię +10 do trafienia.</li></ul><h3>Obrona przed dużymi stworzeniami</h3><p>Dostajesz karę -2 do PS za każdy poziom, o który przerasta cię przeciwnik, gdy używasz Umiejętności Broń Biała do obrony podczas Testu Przeciwstawnego. Zalecamy wykonywanie uników przed olbrzymem wymachującym drzewem zamiast parowania jego ciosów!</p><h3>Strzelanie</h3><p>Strzelanie do małych celi daje modyfikator -10 za każdy poziom rozmiaru poniżej Średniego. Strzelanie do dużych stworzeń daje modyfikator +20 za każdy poziom powyżej Średniego.</p><h3>Przeciwstawna Siła</h3><p>Jeśli jedno stworzenie jest o 2 lub więcej poziomów większe, wygrywa automatycznie Testy Przeciwstawne Siły (i podobne). Jeśli jedno stworzenie jest o 1 poziom większe, mniejszy stwór, aby wygrać Test Przeciwstawny, musi uzyskać Fuksa. Gdy tak się stanie, PS porównywane są jak normalnie. Wszystkie pozostałe wyniki oznaczają zwycięstwo większego stworzenia.</p><h3>Ruch w walce</h3><p>Stworzenie, które jest większe, ignoruje konieczność wykonania Odwrotu, jeśli zamierza opuścić walkę w zwarciu; zamiast tego spycha z drogi mniejszych walczących, przemieszczając się tam, gdzie chce.</p><h3>Strach i Groza</h3><p>Jeśli stworzenie jest postrzegane jako agresywne, wywołuje Strach w dowolnej istocie mniejszej od niego oraz Grozę w dowolnej istocie mniejszej o dwa lub więcej poziomów. Siła Strachu lub Grozy równa się różnicy poziomów Rozmiarów. Zatem jeśli stwór jest duży, a jego przeciwnik mały, może wywoływać Grozę 2.</p><h3>Tupnięcie</h3><p>Stworzenia, które są większe od przeciwników, mogą wykonać jeden Darmowy Atak w postaci Tupnięcia, wydając 1 Przewagę. Uderzają stopą lub kopniakiem zmiatają mniejszych przeciwników z drogi. Ten atak zadaje Obrażenia równe Bonusowi z Siły stworzenia +0 i wykorzystuje Umiejętność Broń Biała (Bijatyka).</p><h3>Żywotność</h3><p>Większe stworzenia mają więcej Żywotności.</p><table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Rozmiar</span></td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Żywotność</span></td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Drobny</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">1</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Niewielki</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Bonus z Wytrzymałości</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Mały</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(2x Bonus z Wytrzymałości) + Bonus z Siły Woli</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Średni</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Duży</td><td style=\"vertical-align: top; width: 4.0in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x2</td></tr><tr><td style=\"vertical-align: top; width: .8666in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Wielki</td><td style=\"vertical-align: top; width: 3.9812in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x4</td></tr><tr><td style=\"vertical-align: top; width: .8666in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Monstrualny</td><td style=\"vertical-align: top; width: 3.9812in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x8</td></tr></tbody></table>",
+      "GmDescription": null,
+      "FoundryId": "wjbTBj7Nu68B2y7J",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.8slW8CJ2oVTxeQ6q",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [],
+      "OriginalName": "Skittish",
+      "Name": "Płochliwy",
+      "Description": "<p>Stworzenie łatwo płoszy się z powodu magii lub donośnych odgłosów - dostaje wtedy +3 Stany Panika.</p>",
+      "GmDescription": null,
+      "FoundryId": "9QkBiDQWB2g88ANp",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.IPKRMGry6WotuS1G",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "1",
+      "Effects": [],
+      "OriginalName": "Weapon",
+      "Name": "Broń",
+      "Description": "<p>Stworzenie nosi broń do walki wręcz lub używa w walce zębów, pazurów albo tym podobnych. \n\nBroń zadaje tyle Obrażeń, ile wynosi podana wartość, która już zawiera Bonus z Siły stworzenia. Zazwyczaj będzie to wynosiło 4 + Bonus z Siły (co reprezentuje broń ręczną).</p>",
+      "GmDescription": null,
+      "FoundryId": "sprzh9rHgCryMG3f",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.AtpAudHA4ybXVlWM",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [
+        {
+          "Script": "args.wounds *= 5;",
+          "SecondaryScript": null,
+          "OriginalName": "Swarm Bonus",
+          "Name": "Bonusy Roju",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "FLoUbmMqNQMuJfZx",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        },
+        {
+          "Script": "if (args.type == \"weapon\" && args.item.attackType == \"ranged\") {\n   args.prefillModifiers.modifier += 40;\n}",
+          "SecondaryScript": null,
+          "OriginalName": "Swarm",
+          "Name": "Rój",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "tEaxMHcTWod19AVP",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Swarm",
+      "Name": "Rój",
+      "Description": "<p>Roje to wielkie ilości tych samych stworów działających jak jeden. Rój liczy się jako jeden stwór, który ignoruje zasady efektów psychologicznych i może ignorować zasady Związania walką, gdy wykonuje Ruch. Jeśli rój trafi przeciwnika, aktywuje zasadę Śmiertelny cios (nawet jeśli nie zabił przeciwnika). Wszyscy przeciwnicy Związani walką z rojem automatycznie otrzymują 1 Ranę pod koniec każdej Rundy, gdy rój opada na wszystko w pobliżu. Rój ma pięć razy więcej Żywotności niż normalny okaz danego stworzenia i dostaje +10 do Walki Wręcz. Wszelkie próby strzelania do roju mają premię +40 do trafienia. Rój ignoruje wszelkie zasady Rozmiaru stworzeń.</p>",
+      "GmDescription": null,
+      "FoundryId": "A15NWKKWn3mkJqeX",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.E2Es82TvBKa7CoDG",
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "Species": "Rat",
+  "Gender": "Varies",
+  "OriginalName": "Skaven Giant Rat Swarm",
+  "Name": null,
+  "Description": "<section id=\"secret-JMaDFds6XnnjnMuF\" class=\"secret\"><p>@UUID[JournalEntry.TSyoR9nSk7cehypG.JournalEntryPage.yJlaZDmJgb5rIkHM]{The Sewers}</p><p>Rats are a common threat in the sewers of the Reikland. The Skaven make use of their presence, herding them in great swarms, directing them to attack their foes. Though individually weak, when attacking en masse, they can be surprisingly destructive. </p></section>",
+  "GmDescription": null,
+  "FoundryId": "lDizGNnhMbMdtTRI",
+  "Type": "creature",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.actors.lDizGNnhMbMdtTRI",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik NPCs"
+}

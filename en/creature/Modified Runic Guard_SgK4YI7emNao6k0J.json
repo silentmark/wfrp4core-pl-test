@@ -1,0 +1,107 @@
+{
+  "Items": [
+    {
+      "Specification": "5*",
+      "Effects": [
+        {
+          "Script": "let AP = args.actor.status.armour;\nlet APdamage = this.item.getFlag('wfrp4e', 'APdamage') || {};\nlet value = parseInt(this.item.specification.value);\nif (Number.isNumeric(value)) {\n    AP[\"head\"].value += (value - (APdamage.head || 0))\n    AP[\"rArm\"].value += (value - (APdamage.rArm|| 0))\n    AP[\"lArm\"].value += (value - (APdamage.lArm || 0))\n    AP[\"body\"].value += (value - (APdamage.body || 0))\n    AP[\"lLeg\"].value += (value - (APdamage.lLeg || 0))\n    AP[\"rLeg\"].value += (value - (APdamage.rLeg || 0))\n}",
+          "SecondaryScript": null,
+          "OriginalName": "Armour",
+          "Name": "Pancerz",
+          "Description": null,
+          "GmDescription": null,
+          "FoundryId": "CAcGBn8sq62mVUxJ",
+          "Type": "effect",
+          "OriginFoundryId": null,
+          "Translated": false,
+          "InitializationFolder": null
+        }
+      ],
+      "OriginalName": "Armour",
+      "Name": "Pancerz",
+      "Description": "<p>Stworzenie chronione jest przez pancerz lub grubą skórę. Ma tyle Punktów Pancerza, ile wynosi wartość, na wszystkich Miejscach Trafień.</p>",
+      "GmDescription": null,
+      "FoundryId": "1tKUiC5DjeqlcYEv",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.VUJUZVN3VYhOaPjj",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [],
+      "OriginalName": "Dark Vision",
+      "Name": "Widzenie w Mroku",
+      "Description": "<p>Stworzenie potrafi widzieć w ciemności jak w świetle dziennym.</p>",
+      "GmDescription": null,
+      "FoundryId": "aYNwRtucNyU7kaAz",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.JQa5DLnTs2SEzRrc",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [],
+      "OriginalName": "Die Hard",
+      "Name": "Nie do Zdarcia",
+      "Description": "<p>Bez względu na to, jak mocno obrywa stworzenie, wciąż się podnosi. Wszystkie Rany Krytyczne, których wynikiem nie jest śmierć, mogą zostać wyleczone; wystarczy połączyć potrzebne części ciała w odpowiednich miejscach, może unieruchamiając je klamrami lub dużymi kołkami, a stwór zaraz będzie gotowy funkcjonować dalej. Nawet „śmierć” można „wyleczyć”, jeśli do ciała zostaną przymocowane odpowiednie części takie jak stracona głowa. Jeśli nastąpi zgon, a wszystkie części ciała będą na swoim miejscu, stworzenie może wykonywać po swojej śmierci Wymagający (+0) Test Odporności z PS wynoszącym 6 na początku każdej Rundy (przez tyle Rund, ile wynosi jego Bonus z Wytrzymałości). Jeśli Test jest udany, stworzenie z charkotem budzi się do życia z 1 punktem Żywotności.</p>",
+      "GmDescription": null,
+      "FoundryId": "O6S7LuQi0kV4G85H",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.UsJ2uIOOtHA7JqD5",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": null,
+      "Effects": [],
+      "OriginalName": "Painless",
+      "Name": "Nie Czuje Bólu",
+      "Description": "<p>Stworzenie nie odczuwa bólu i może nie zwracać na niego uwagi. Wszelkie kary z Ran Krytycznych są ignorowane, o ile nie są Amputacjami. Stworzenie wciąż dostaje odpowiednie Stany jak normalnie.</p>",
+      "GmDescription": null,
+      "FoundryId": "NbmIOGB4NJJ3HJTr",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.wMwSRDmgiF2IdCJr",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "Large",
+      "Effects": [],
+      "OriginalName": "Size",
+      "Name": "Rozmiar",
+      "Description": "<p>Ta cecha reprezentuje stworzenia, których rozmiar różni się od standardowego w grze (czyli mniej więcej wielkości człowieka). Jest siedem poziomów Rozmiaru - od drobnego po monstrualny.</p><table style=\"direction: ltr; border-color: #a3a3a3; border-width: 1pt;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Rozmiar</span></td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Przykłady</span></td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Drobny</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">gołąb, motyl, mysz</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Niewielki</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">jastrząb, kot, ludzkie niemowlę</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Mały</td><td style=\"vertical-align: top; width: 2.1513in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">ludzkie dziecko, olbrzymi szczur, niziołek</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Średni</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">człowiek, elf, krasnolud</td></tr><tr><td style=\"vertical-align: top; width: .868in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Duży</td><td style=\"vertical-align: top; width: 2.0819in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">koń, ogr, troll</td></tr><tr><td style=\"vertical-align: top; width: .8875in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Wielki</td><td style=\"vertical-align: top; width: 2.0625in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">gryf, mantikora, wywerna</td></tr><tr><td style=\"vertical-align: top; width: .8875in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Monstrualny</td><td style=\"vertical-align: top; width: 2.1319in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">olbrzym, smok, większy demon</td></tr></tbody></table><h3>KORZYSTANIE Z ROZMIARU</h3><p>Jeśli chcesz wykorzystać Rozmiar, by powiększyć stwora - na przykład przekształcając olbrzymiego pająka w gigantycznego pająka - zwiększ Siłę i Wytrzymałość o 10 oraz zmniejsz Zwinność o -5 za każdy poziom Rozmiaru, o który powiększasz stworzenie. Wykonaj tę procedurę odwrotnie, jeśli chcesz zmniejszyć stwora.</p><h3>Modyfikatory Rozmiaru w walce</h3><p>Jeśli stwór jest większy:</p><ul type=\"disc\"><li>Broń stwora dostaje Zaletę Przebijająca, jeśli stwór jest o jeden poziom większy oraz Zaletę Druzgocząca, jeśli jest większy o dwa lub więcej poziomów.</li><li>Stwór mnoży wszelkie zadawane Obrażenia tyle razy, ile poziomów jest większy (zatem 2 poziomy =x2, 3 poziomy =x3 i tak dalej); to mnożenie wykonywane jest po zastosowaniu wszystkich modyfikatorów.</li><li>Wszystkie udane ataki przeciwko mniejszym celom aktywują zasadę Śmiertelny cios - nie tylko ciosy, które zadały śmierć.</li><li>(houserule) Za każdy poziom powyżej Średniego, stworzenie liczy się jako +1 postać do zasad przewagi liczebnej.</li></ul><p>Jeśli stwór jest mniejszy:</p><ul type=\"disc\"><li>Stwór dostaje premię +10 do trafienia.</li></ul><h3>Obrona przed dużymi stworzeniami</h3><p>Dostajesz karę -2 do PS za każdy poziom, o który przerasta cię przeciwnik, gdy używasz Umiejętności Broń Biała do obrony podczas Testu Przeciwstawnego. Zalecamy wykonywanie uników przed olbrzymem wymachującym drzewem zamiast parowania jego ciosów!</p><h3>Strzelanie</h3><p>Strzelanie do małych celi daje modyfikator -10 za każdy poziom rozmiaru poniżej Średniego. Strzelanie do dużych stworzeń daje modyfikator +20 za każdy poziom powyżej Średniego.</p><h3>Przeciwstawna Siła</h3><p>Jeśli jedno stworzenie jest o 2 lub więcej poziomów większe, wygrywa automatycznie Testy Przeciwstawne Siły (i podobne). Jeśli jedno stworzenie jest o 1 poziom większe, mniejszy stwór, aby wygrać Test Przeciwstawny, musi uzyskać Fuksa. Gdy tak się stanie, PS porównywane są jak normalnie. Wszystkie pozostałe wyniki oznaczają zwycięstwo większego stworzenia.</p><h3>Ruch w walce</h3><p>Stworzenie, które jest większe, ignoruje konieczność wykonania Odwrotu, jeśli zamierza opuścić walkę w zwarciu; zamiast tego spycha z drogi mniejszych walczących, przemieszczając się tam, gdzie chce.</p><h3>Strach i Groza</h3><p>Jeśli stworzenie jest postrzegane jako agresywne, wywołuje Strach w dowolnej istocie mniejszej od niego oraz Grozę w dowolnej istocie mniejszej o dwa lub więcej poziomów. Siła Strachu lub Grozy równa się różnicy poziomów Rozmiarów. Zatem jeśli stwór jest duży, a jego przeciwnik mały, może wywoływać Grozę 2.</p><h3>Tupnięcie</h3><p>Stworzenia, które są większe od przeciwników, mogą wykonać jeden Darmowy Atak w postaci Tupnięcia, wydając 1 Przewagę. Uderzają stopą lub kopniakiem zmiatają mniejszych przeciwników z drogi. Ten atak zadaje Obrażenia równe Bonusowi z Siły stworzenia +0 i wykorzystuje Umiejętność Broń Biała (Bijatyka).</p><h3>Żywotność</h3><p>Większe stworzenia mają więcej Żywotności.</p><table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Rozmiar</span></td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\"><span style=\"font-weight: bold;\">Żywotność</span></td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Drobny</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">1</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Niewielki</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Bonus z Wytrzymałości</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Mały</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(2x Bonus z Wytrzymałości) + Bonus z Siły Woli</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Średni</td><td style=\"vertical-align: top; width: 3.9312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli</td></tr><tr><td style=\"vertical-align: top; width: .8472in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Duży</td><td style=\"vertical-align: top; width: 4.0in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x2</td></tr><tr><td style=\"vertical-align: top; width: .8666in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Wielki</td><td style=\"vertical-align: top; width: 3.9812in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x4</td></tr><tr><td style=\"vertical-align: top; width: .8666in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">Monstrualny</td><td style=\"vertical-align: top; width: 3.9812in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">(Bonus z Siły + (2x Bonus z Wytrzymałości) + Bonus z Siły Woli) x8</td></tr></tbody></table>",
+      "GmDescription": null,
+      "FoundryId": "GfQpUg50QqRYpkRv",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.8slW8CJ2oVTxeQ6q",
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Specification": "4",
+      "Effects": [],
+      "OriginalName": "Weapon",
+      "Name": "Broń",
+      "Description": "<p>Stworzenie nosi broń do walki wręcz lub używa w walce zębów, pazurów albo tym podobnych. \n\nBroń zadaje tyle Obrażeń, ile wynosi podana wartość, która już zawiera Bonus z Siły stworzenia. Zazwyczaj będzie to wynosiło 4 + Bonus z Siły (co reprezentuje broń ręczną).</p>",
+      "GmDescription": null,
+      "FoundryId": "zjJnFpyfvVReEtux",
+      "Type": "trait",
+      "OriginFoundryId": "Compendium.wfrp4e-core.traits.AtpAudHA4ybXVlWM",
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "Species": "N/A",
+  "Gender": "N/A",
+  "OriginalName": "Modified Runic Guardian",
+  "Name": null,
+  "Description": "<section class=\"secret\" id=\"secret-nFZInAqiGfHTDBH3\"><p>@UUID[JournalEntry.HUQGe1nm81Hfslkv.JournalEntryPage.GQ77OX7qajaS8FnK]{The Riddle of Silver}</p></section>",
+  "GmDescription": null,
+  "FoundryId": "SgK4YI7emNao6k0J",
+  "Type": "creature",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.actors.SgK4YI7emNao6k0J",
+  "Translated": false,
+  "InitializationFolder": "The Riddle of Silver"
+}

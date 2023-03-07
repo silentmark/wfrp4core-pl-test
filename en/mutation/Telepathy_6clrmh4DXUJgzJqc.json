@@ -1,0 +1,12 @@
+{
+  "Effects": [],
+  "OriginalName": "Telepathy",
+  "Name": null,
+  "Description": "<p>Your mind leaps free from its material shackles, gibbering in delight as it finds new ways to impose upon others.</p><p>With a <strong>Simple Willpower</strong> test you can communicate with any sentient creature within your Willpower in yards and line-of-sight. this last for Initiative minutes. You can also read the surface thoughts of any creature with which you are telepathically communicating with a further <strong>Opposed Willpower</strong> test. If you fail the test, you cannot read the subject’s mind for the next [[/r 1d10]] days. When using telepathy, your eyes glow eerily. Each time this Mutation is developed, your range for using the power doubles.</p><p> </p><p> </p>",
+  "GmDescription": null,
+  "FoundryId": "6clrmh4DXUJgzJqc",
+  "Type": "mutation",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.6clrmh4DXUJgzJqc",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

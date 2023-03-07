@@ -1,0 +1,52 @@
+{
+  "Effects": [
+    {
+      "Script": null,
+      "SecondaryScript": null,
+      "OriginalName": "Bleeding",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "eDYPhQ4BZxsoN3S3",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "if (this.actor.isOwner)\n args.actor.setupSkill(\"Endurance\", {absolute: {difficulty: \"hard\"}}).then(setupData => {\n       args.actor.basicTest(setupData).then(test => \n        {\n            if (test.result.outcome == \"failure\")\n            args.actor.addCondition(\"unconscious\")\n        })\n     })",
+      "SecondaryScript": null,
+      "OriginalName": "Painful Cut",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "fLJCyLURFISohfWx",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "args.prefillModifiers.modifier -= 10 * this.effect.conditionValue",
+      "SecondaryScript": null,
+      "OriginalName": "Stunned",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "PKfdEwRZh5DCZSwC",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Painful Cut",
+  "Name": null,
+  "Description": "<p>Gain 2 @Condition[Bleeding] Conditions and a @Condition[Stunned] Condition. Pass a <strong>Hard (–20) Endurance</strong> Test or gain the @Condition[Unconscious] Condition as you blackout from the pain.</p>",
+  "GmDescription": null,
+  "FoundryId": "Vj7jkZ1ZtJKXKYmu",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.Vj7jkZ1ZtJKXKYmu",
+  "Translated": false,
+  "InitializationFolder": null
+}

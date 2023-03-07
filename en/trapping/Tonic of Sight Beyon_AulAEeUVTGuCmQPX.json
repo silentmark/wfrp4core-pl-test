@@ -1,0 +1,12 @@
+{
+  "Effects": [],
+  "OriginalName": "Tonic of Sight Beyond Sight",
+  "Name": null,
+  "Description": null,
+  "GmDescription": "<p>A dark green liquid, its label inscribed with a large, red eyeball, this potion promises to enhance the imbiber&rsquo;s vision. Drinking the potion will provide you with the benefits of one or more Talents as follows ([[/r 1d10]]):</p>\n<p>1-2: @Compendium[wfrp4e-core.talents.9h82z72XGo9tfgQS]{Acute Sense (Sight)};</p>\n<p>3-4: @Compendium[wfrp4e-core.talents.Nj3tC8A5fZ3zEdMR]{Holy Visions};</p>\n<p>5-6: @Compendium[wfrp4e-core.talents.6w30u0VPsAicrqb5]{Magical Sense};</p>\n<p>7-8: @Compendium[wfrp4e-core.talents.OEjUvJKi0xmBwbS2]{Second Sight};</p>\n<p>9-10: All of the Above.&nbsp;</p>\n<p>Duration:&nbsp;[[/r 1d10]]minutes.</p>",
+  "FoundryId": "AulAEeUVTGuCmQPX",
+  "Type": "trapping",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.AulAEeUVTGuCmQPX",
+  "Translated": false,
+  "InitializationFolder": "Ubersreik"
+}

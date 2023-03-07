@@ -1,0 +1,52 @@
+{
+  "Effects": [
+    {
+      "Script": "if (this.actor.isOwner)\n   args.actor.setupSkill(\"Endurance\").then(setupData => {\n       args.actor.basicTest(setupData).then(test => \n        {\n            if (test.result.outcome == \"failure\")\n            args.actor.addCondition(\"prone\")\n        })\n     })",
+      "SecondaryScript": null,
+      "OriginalName": "Prone",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "ftiYT4Sxl2RlzOvB",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "args.prefillModifiers.modifier -= 10",
+      "SecondaryScript": null,
+      "OriginalName": "Fractured Bone",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "IBnMdeVef5AHJQ8W",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    },
+    {
+      "Script": "args.prefillModifiers.modifier -= 10 * this.effect.conditionValue",
+      "SecondaryScript": null,
+      "OriginalName": "Stunned",
+      "Name": null,
+      "Description": null,
+      "GmDescription": null,
+      "FoundryId": "PKfdEwRZh5DCZSwC",
+      "Type": "effect",
+      "OriginFoundryId": null,
+      "Translated": false,
+      "InitializationFolder": null
+    }
+  ],
+  "OriginalName": "Fractured Bone",
+  "Name": null,
+  "Description": "<p>Gain a @Condition[Stunned] Condition. Take a <strong>Challenging (+0) Endurance</strong> Test or also gain the @Condition[Prone] Condition. All Tests suffer a –10 penalty for the next 4 weeks.</p>",
+  "GmDescription": null,
+  "FoundryId": "SdB0sthOSurZWqYe",
+  "Type": "critical",
+  "OriginFoundryId": "Compendium.wfrp4e-starter-set.items.SdB0sthOSurZWqYe",
+  "Translated": false,
+  "InitializationFolder": null
+}
