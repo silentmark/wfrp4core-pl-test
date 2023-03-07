@@ -8,5 +8,21 @@
     "FoundryId": "",
     "Type": "",
     "OriginFoundryId": "",
-    "InitializationFolder": ""
+    "InitializationFolder": "",
+    "Items": [
+        {
+            "FoundryId": "WSBRO7lplpNWDs8k",
+            "CarrerGroup": "Uczony",
+            "OriginFoundryId": "Compendium.wfrp4e-core.careers.PiHjiktsOzTTn6U7"
+        },
+        {
+            "CarrerGroup": "Kupiec",
+            "Talents": [
+                null,
+                "Żyłka Handlowa",
+                "Czytanie/Pisanie"
+            ],
+            "Class": "Mieszczanin"
+        }
+    ]
 }
